@@ -5,8 +5,8 @@ This repository contains the full Rust implementation used for the experiments i
 
 The program implements and benchmarks two logging mechanisms:
 
-1. **Traditional Logger** – appends plaintext logs without integrity protection.
-2. **Hash-Chain Logger** – appends logs where each entry cryptographically includes the previous entry’s hash, ensuring tamper-evident integrity.
+1. **Traditional Logger**: appends plaintext logs without integrity protection.
+2. **Hash-Chain Logger**: appends logs where each entry cryptographically includes the previous entry’s hash, ensuring tamper-evident integrity.
 
 The code measures **tampering detection rate, verification time, throughput, CPU/memory usage, and storage overhead** under controlled modification attacks.
 
@@ -116,7 +116,7 @@ A detailed report is saved as `verification_result.csv`, containing all performa
 
 If you use this implementation in your academic work, please cite the corresponding paper:
 
-> Ach. Lim et al., *A Comparative Analysis of the Effectiveness of Hash-Chain-Based and Traditional Logging Audit Trail Systems in Detecting Data Manipulation*, 2025.
+> V. Lim et al., *A Comparative Analysis of the Effectiveness of Hash-Chain-Based and Traditional Logging Audit Trail Systems in Detecting Data Manipulation*, 2025.
 
 ---
 
