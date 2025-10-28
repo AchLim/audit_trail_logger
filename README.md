@@ -1,6 +1,7 @@
 # Audit Trail Logger (Rust Implementation)
 
-This repository contains the full Rust implementation used for the experiments in the paper.
+This repository contains the full Rust implementation used for the experiments in the paper
+**"A Comparative Analysis of the Effectiveness of Hash-Chain-Based and Traditional Logging Audit Trail Systems in Detecting Data Manipulation."**
 
 The program implements and benchmarks two logging mechanisms:
 
